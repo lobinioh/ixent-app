@@ -19,8 +19,6 @@ from dash.exceptions import PreventUpdate
 from dash import Dash, html, dcc
 app = Dash(__name__)
 
-# . means local import, tells Python to import PlotIterator from the same package directory as this file.
-import PlotIterator
 
 marker_size_min = 4
 marker_size_max = 20
