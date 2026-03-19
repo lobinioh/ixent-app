@@ -935,7 +935,8 @@ debug = False
 # find available port if 8050 is blocked
 while not check_port_availability(dash_host, dash_port):
     dash_port += 1
-if not debug:
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
 
