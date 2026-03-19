@@ -1,0 +1,13 @@
+.right_content{
+ width:75%;
+ position:absolute;
+ top: 0;
+ right: 0; 
+ }
+
+.left_menu {
+ width: 25%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
