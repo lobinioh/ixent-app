@@ -936,6 +936,7 @@ debug = False
 while not check_port_availability(dash_host, dash_port):
     dash_port += 1
 if not debug:
+     pass
 
 
 
