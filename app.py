@@ -19,6 +19,7 @@ from dash.exceptions import PreventUpdate
 from dash import Dash, html, dcc
 app = Dash(__name__)
 
+import PlotIterator
 
 marker_size_min = 4
 marker_size_max = 20
