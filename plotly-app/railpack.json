@@ -1,6 +1,5 @@
 {
-  "$schema": "https://schema.railpack.com",
-  "deploy": {
-    "startCommand": "python app.py"
+  "build": {
+    "builder": "NIXPACKS"
   }
 }
